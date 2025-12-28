@@ -1,0 +1,5 @@
+def digits_rekursif(num):
+  if num < 10:
+    return 1
+  else:
+    return digits_rekursif(num // 10) + 1
